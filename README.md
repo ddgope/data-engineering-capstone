@@ -2,7 +2,7 @@
 ## Data Engineering Capstone Project
 
 ## Table of Contents
-* **Scope of Works  :**
+* **The Problem Statements  :**
     The purpose of this project is to demonstrate various skills associated with data engineering projects. I will be developing highly Scalable Data Ingestion Architecture Using Airflow and Spark, constructing cloud data warehouses through Redshift databases and S3 data storage as well as defining efficient star schema data model.
     As an example I will perform a deep dive into I94 US immigration, Airport, Port of Entry City and City Weather , primarily focusing on the type of visas being issued and the profiles associated. The scope of this project is limited to the data sources listed below with data being aggregated across numerous dimensions such as visa type, gender, port of entry, nationality and month etc.
     By which Air Lines Immigrants are coming to US?
