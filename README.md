@@ -41,8 +41,9 @@ These steps include:
 - Extracting data from SAS Documents and writing as CSV files to S3 immigration bucket
 - Extracting remaining CSV and PARQUET files from S3 immigration bucket
 - Processing PARQUET files store into Star Shchema Dimenions format into S3 transformed bucket
-- Writing PARQUET files from S3 to Redshift
+- Writing PARQUET files from S3 to Redshift and AWS Datalake
 - Performing data quality checks on the newly created tables
+
   * **ETL Design Principles** : 
     1. Variation in data size and cadency
     <p align="center"><img src="./images/Variation_in_data_size_and_cadency.png" style="height: 100%; width: 100%; max-width: 90%"/></p>
