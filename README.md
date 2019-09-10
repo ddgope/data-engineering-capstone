@@ -2,7 +2,7 @@
 ## Data Engineering Capstone Project
 
 ## Table of Contents
-* **Scope of Works  :**
+* **The Problem Statements  :**
     The purpose of this project is to demonstrate various skills associated with data engineering projects. I will be developing highly Scalable Data Ingestion Architecture Using Airflow and Spark, constructing cloud data warehouses through Redshift databases and S3 data storage as well as defining efficient star schema data model.
     As an example I will perform a deep dive into I94 US immigration, Airport, Port of Entry City and City Weather , primarily focusing on the type of visas being issued and the profiles associated. The scope of this project is limited to the data sources listed below with data being aggregated across numerous dimensions such as visa type, gender, port of entry, nationality and month etc.
     By which Air Lines Immigrants are coming to US?
@@ -35,12 +35,15 @@ Additionally, airports associated with `port_of_entry` could be identified throu
 <img src="./images/map.png"/>
 
 ## ETL Pipeline Framework :
-Defining the data model and creating the star schema involves various steps, made significantly easier through the use of Airflow. The process of extracting files from S3 buckets, transforming the data using Spark and saving into PARQUET files. Then writing PARQUET files to Redshift is accomplished through various tasks highlighted below in the ETL Dag graph. These steps include:
+Defining the data model and creating the star schema involves various steps, made significantly easier through the use of Airflow. The process of extracting files from S3 buckets, transforming the data using Spark and saving into PARQUET files. Then writing PARQUET files to Redshift is accomplished through various tasks highlighted below in the ETL Dag graph. 
+
+These steps include:
 - Extracting data from SAS Documents and writing as CSV files to S3 immigration bucket
 - Extracting remaining CSV and PARQUET files from S3 immigration bucket
 - Processing PARQUET files store into Star Shchema Dimenions format into S3 transformed bucket
-- Writing PARQUET files from S3 to Redshift
+- Writing PARQUET files from S3 to Redshift and AWS Datalake
 - Performing data quality checks on the newly created tables
+
   * **ETL Design Principles** : 
     1. Variation in data size and cadency
     <p align="center"><img src="./images/Variation_in_data_size_and_cadency.png" style="height: 100%; width: 100%; max-width: 90%"/></p>
@@ -80,4 +83,5 @@ Overall this project was a small undertaking to demonstrate the steps involved i
 * Developing a star schema with optimization to specific queries required by the data analytics team.
 * Using Airflow to automate ETL pipelines using Airflow, Python, Spark and Amazon Redshift.
 * Writing custom operators to perform tasks such as staging data, filling the data warehouse, and validation through data quality checks.
+* Have used AWS EMR cluster.
 * Transforming data from various sources into a star schema optimized for the analytics team's use cases.
