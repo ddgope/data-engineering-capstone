@@ -1,0 +1,10 @@
+regex
+pandas
+s3fs
+psycopg2-binary
+cryptography
+boto3
+AWS S3
+AWS RedShift
+PySpark
+AirFlow
