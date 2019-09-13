@@ -2,13 +2,13 @@
 ## Data Engineering Capstone Project
 
 ## Table of Contents
-* **The Problem Statements  :**
+* **Scope of Works  :**
     The purpose of this project is to demonstrate various skills associated with data engineering projects. I will be developing highly Scalable Data Ingestion Architecture Using Airflow and Spark, constructing cloud data warehouses through Redshift databases and S3 data storage as well as defining efficient star schema data model.
     As an example I will perform a deep dive into I94 US immigration, Airport, Port of Entry City and City Weather , primarily focusing on the type of visas being issued and the profiles associated. The scope of this project is limited to the data sources listed below with data being aggregated across numerous dimensions such as visa type, gender, port of entry, nationality and month etc.
-    By which Air Lines Immigrants are coming to US?
-    Which city they are landing?
-    What is the weather of that city?
-    Further details and analysis, please refer the data exploration part.
+    * By which Air Lines Immigrants are coming to US?
+    * Which city they are landing?
+    * What is the weather of that city?
+    * Further details and analysis, please refer the data exploration part.
 
 ## Data Sources & Description :
 * **I94 Immigration Data:** This data comes from the US National Tourism and Trade Office found [here](https://travel.trade.gov/research/reports/i94/historical/2016.html). Each report contains international visitor arrival statistics by world regions and select countries (including top 20), type of visa, mode of transportation, age groups, states visited (first intended address only), and the top ports of entry (for select countries).
@@ -23,7 +23,12 @@ At the project inception stage, I have defined a set of design goals to help gui
 1. Design a flexible data model — Represent a wide range of data artifacts and relationships among them using a generic data model to enable a wide variety of business use cases.
 
 ## Data Exploration :
-    Further details and analysis can be found [here](./capstone_notebook.ipynb)
+    Further details and analysis can be found 
+    [Capstone Project](Capstone_Project_Final_Notebook.ipynb)    
+    [Immigration](https://r766466c839826xjupyterlnnfq3jud.udacity-student-workspaces.com/lab/tree/Capstone_Project_Final_Notebook.ipynb)
+    [Weather]
+    [Airport Data]
+    [PortOfEntry]
     
 * **Notes:** Data comes from different sources (like log files, data warehouses and third-party APIs etc). It is important to explore the structure, volume, granularity and frequency of data, data quality, data relationship etc.    
     
@@ -31,20 +36,9 @@ At the project inception stage, I have defined a set of design goals to help gui
 After doing the data exploration from various data sources i.e. I94 Immigration Data (immigration codes file  `I94_SAS_Labels_Descriptions.SAS`),U.S. City Demographic Data,Airport Code and World tempeture Data. I was able to define a star schema by extracting the immigration fact table and various dimension tables as shown below:
 <img src="./images/schema.png"/>
 
-Additionally, airports associated with `port_of_entry` could be identified through the `Airport Code Table`. The table is exhaustive and extends well beyond just the US as highlighted below:
-<img src="./images/map.png"/>
 
 ## ETL Pipeline Framework :
-Defining the data model and creating the star schema involves various steps, made significantly easier through the use of Airflow. The process of extracting files from S3 buckets, transforming the data using Spark and saving into PARQUET files. Then writing PARQUET files to Redshift is accomplished through various tasks highlighted below in the ETL Dag graph. 
-
-These steps include:
-- Extracting data from SAS Documents and writing as CSV files to S3 immigration bucket
-- Extracting remaining CSV and PARQUET files from S3 immigration bucket
-- Processing PARQUET files store into Star Shchema Dimenions format into S3 transformed bucket
-- Writing PARQUET files from S3 to Redshift and AWS Datalake
-- Performing data quality checks on the newly created tables
-
-  * **ETL Design Principles** : 
+  * **ETL Design Principles** : Below are the design principles has been taken care during the pipeline deevlopment
     1. Variation in data size and cadency
     <p align="center"><img src="./images/Variation_in_data_size_and_cadency.png" style="height: 100%; width: 100%; max-width: 90%"/></p>
 
@@ -69,10 +63,17 @@ These steps include:
     1. Data Quality
     <img src="./images/Data_Quality.png"/>
 
+Defining the data model and creating the star schema involves various steps, made significantly easier through the use of Airflow. The process of extracting files from S3 buckets, transforming the data using Spark and saving into PARQUET files. Then writing PARQUET files to Redshift is accomplished through various tasks highlighted below in the ETL Dag graph. These steps include:
+- Extracting data from SAS Documents and writing as CSV files to S3 immigration bucket
+- Extracting remaining CSV and PARQUET files from S3 immigration bucket
+- Processing PARQUET files store into Star Shchema Dimenions format into S3 transformed bucket
+- Writing PARQUET files from S3 to Redshift
+- Performing data quality checks on the newly created tables
+- Final ETL pipeline looks like below
+  <img src="./images/FinalDataPipeline.png"/>  
+ 
 ## Data Storage
 Data was stored in S3 buckets in a collection of PARQUET files. The immigration dataset extends to several million rows and thus this dataset was converted to PARQUET files to allow for easy data manipulation and processing through Dask and the ability to write to Redshift star schema with proper distribution key.
-
-## Data Visualization
 
 ## Conclusion
 Overall this project was a small undertaking to demonstrate the steps involved in developing a data warehouse that is easily scalable. Skills include:
@@ -83,5 +84,4 @@ Overall this project was a small undertaking to demonstrate the steps involved i
 * Developing a star schema with optimization to specific queries required by the data analytics team.
 * Using Airflow to automate ETL pipelines using Airflow, Python, Spark and Amazon Redshift.
 * Writing custom operators to perform tasks such as staging data, filling the data warehouse, and validation through data quality checks.
-* Have used AWS EMR cluster.
 * Transforming data from various sources into a star schema optimized for the analytics team's use cases.

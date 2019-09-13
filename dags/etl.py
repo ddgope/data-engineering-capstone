@@ -1,6 +1,7 @@
 import re
 import pandas as pd
 from datetime import datetime, timedelta
+#need to install s3fs using pip: pip install s3fs
 import s3fs
 import logging
 
@@ -15,6 +16,7 @@ from operators.data_quality import DataQualityOperator
 
 aws_conn = get_extra_from_conn(sql_queries.AirflowConnIds.S3)
 
+#b
 PARAMS = {
           'base_bucket': sql_queries.S3Buckets.CAPSTONE,
           'schema': sql_queries.General.SCHEMA,
@@ -33,7 +35,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5)
 }
 
-dag = DAG('etl_dag',
+dag = DAG('Immigration_ETL_Pipeline_DAG',
           default_args=default_args,
           description='Load and transform data in Redshift with Airflow',
           schedule_interval=None,

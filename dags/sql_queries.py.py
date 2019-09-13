@@ -1,22 +1,22 @@
+#Below are the AWS and RedShift Connection
 class AirflowConnIds:
     S3 = 'aws_conn'
     REDSHIFT = 'capstoneuser'
 
-
+#Below is the S3 bucket name
 class S3Buckets:
     CAPSTONE = 'us-immigration'
 
 
 class General:
     SCHEMA = 'public'
-    CSV_TABLES = ["airport_codes", "port_of_entry_codes", "nationality_codes",
-                  "port_of_issue_codes", "visa_codes",
-                  "us_cities_demographics",
+    CSV_TABLES = ["airport_codes", "port_of_entry_codes", "nationality_codes","visa_codes",
+                  "us_cities_demographics","visa_post","GlobalLandTemperaturesByCity",
                   "i94cit_i94res", "i94port", "i94mode", "i94addr", "i94visa"]
     PARQUET_TABLES = ["immigration"]
     TABLES = CSV_TABLES + PARQUET_TABLES
 
-
+#Below are the tables need to be create
 class SQLQueries:
     DROP_TABLE = """
         DROP TABLE IF EXISTS {schema}.{table}
@@ -52,19 +52,19 @@ class SQLQueries:
     CREATE = {}
     CREATE['immigration'] = """
     	CREATE TABLE IF NOT EXISTS public.immigration (
-    		cicid FLOAT,
-            i94yr FLOAT,
-            i94mon FLOAT,
-            i94cit FLOAT,
-            i94res FLOAT,
+    		cicid integer NOT NULL sortkey,
+            i94yr integer,
+            i94mon integer NOT NULL distkey,
+            i94cit integer,
+            i94res integer,
             i94port VARCHAR,
-            arrdate FLOAT,
-            i94mode FLOAT,
+            arrdate integer,
+            i94mode integer,
             i94addr VARCHAR,
-            depdate FLOAT,
-            i94bir FLOAT,
-            i94visa FLOAT,
-            count FLOAT,
+            depdate integer,
+            i94bir integer,
+            i94visa integer,
+            count integer,
             dtadfile VARCHAR,
             visapost VARCHAR,
             occup VARCHAR,
@@ -72,12 +72,12 @@ class SQLQueries:
             entdepd VARCHAR,
             entdepu VARCHAR,
             matflag VARCHAR,
-            biryear FLOAT,
+            biryear integer,
             dtaddto VARCHAR,
             gender VARCHAR,
             insnum VARCHAR,
             airline VARCHAR,
-            admnum FLOAT,
+            admnum integer,
             fltno VARCHAR,
             visatype VARCHAR
         );
@@ -96,7 +96,7 @@ class SQLQueries:
     		gps_code VARCHAR,
     		iata_code VARCHAR,
     		local_code VARCHAR,
-    		coordinates VARCHAR,
+            coordinates VARCHAR,
     		lat FLOAT,
     		long FLOAT
         );
@@ -105,18 +105,12 @@ class SQLQueries:
     CREATE['port_of_entry_codes'] = """
     	CREATE TABLE IF NOT EXISTS public.port_of_entry_codes (
     		code VARCHAR,
-    		location VARCHAR,
+            Location VARCHAR,
     		city VARCHAR,
     		state_or_country VARCHAR
         );
     """ # noqa
 
-    CREATE['port_of_issue_codes'] = """
-    	CREATE TABLE IF NOT EXISTS public.port_of_issue_codes (
-    		port_of_issue VARCHAR,
-    		code VARCHAR
-        );
-    """ # noqa
     CREATE['visa_codes'] = """
     	CREATE TABLE IF NOT EXISTS public.visa_codes (
     		class_of_admission VARCHAR,
@@ -147,6 +141,26 @@ class SQLQueries:
     		state_code VARCHAR,
     		race VARCHAR,
     		count INT
+        );
+    """ # noqa
+
+    CREATE['visa_post'] = """
+    	CREATE TABLE IF NOT EXISTS public.visa_post (
+    		visapost VARCHAR,
+    		visapost_fullname VARCHAR
+        );
+    """ # noqa
+
+    CREATE['GlobalLandTemperaturesByCity'] = """
+    	CREATE TABLE IF NOT EXISTS public.GlobalLandTemperaturesByCity (		
+            GID integer,
+    		dt VARCHAR,
+    		AverageTemperature FLOAT,
+    		AverageTemperatureUncertainty FLOAT,
+    		city VARCHAR,
+    		Country VARCHAR,
+    		Latitude VARCHAR,
+    		Longitude VARCHAR    		
         );
     """ # noqa
 
