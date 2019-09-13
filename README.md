@@ -23,12 +23,12 @@ At the project inception stage, I have defined a set of design goals to help gui
 1. Design a flexible data model — Represent a wide range of data artifacts and relationships among them using a generic data model to enable a wide variety of business use cases.
 
 ## Data Exploration :
-    Further details and analysis can be found 
-    [Capstone Project](Capstone_Project_Final_Notebook.ipynb)    
-    [Immigration](https://r766466c839826xjupyterlnnfq3jud.udacity-student-workspaces.com/lab/tree/Capstone_Project_Final_Notebook.ipynb)
-    [Weather]
-    [Airport Data]
-    [PortOfEntry]
+   Further details and analysis can be found 
+* ***Capstone_Project_Final_Notebook***: This notebook is having all final notes [here](Capstone_Project_Final_Notebook.ipynb).  
+* ***Immgration_data_exploration***: This note book is having immigration related data exploration [here](Immgration_data_exploration.ipynb).
+* ***PortOfEntry_data_exploration***: This note book is having port of entry related data exploration [here](PortOfEntry_data_exploration.ipynb).
+* ***World_Temperature_data_exploration***: This note book is having world temperature related data exploration [here](World_Temperature_data_exploration.ipynb).
+* ***Airport_data_exploration***:This note book is having Airport related data exploration [here](Airport_data_exploration.ipynb).
     
 * **Notes:** Data comes from different sources (like log files, data warehouses and third-party APIs etc). It is important to explore the structure, volume, granularity and frequency of data, data quality, data relationship etc.    
     
