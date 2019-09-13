@@ -1,0 +1,416 @@
+,Code,Location,city,state_or_country
+0,ABE  ,"Aberdeen, WA",Aberdeen, WA
+1,ABG ,"Alburg, VT",Alburg, VT
+2,ABQ ,"Albuquerque, NM",Albuquerque, NM
+3,ABS  ,"Alburg Springs, VT",Alburg Springs, VT
+4,ADT  ,"Amistad Dam, TX",Amistad Dam, TX
+5,AGA ,"Agana, Guam",Agana, Guam
+6,AGN ,"Algonac, MI",Algonac, MI
+7,AGU ,"Mayaguez, PR",Mayaguez, PR
+8,AKR  ,"Akron, OH",Akron, OH
+9,ALB  ,"Albany, NY",Albany, NY
+10,ALC  ,"Alcan, AK",Alcan, AK
+11,ALP  ,"Alpena, MI",Alpena, MI
+12,AMB ,"Ambrose, ND",Ambrose, ND
+13,ANA ,"Anacortes, WA",Anacortes, WA
+14,ANC ,"Anchorage, AK",Anchorage, AK
+15,AND ,"Andrade, CA",Andrade, CA
+16,ANP  ,"Antelope Wells, NM",Antelope Wells, NM
+17,ANT  ,"Antler, ND",Antler, ND
+18,ANZ ,"Anzaldaus, TX",Anzaldaus, TX
+19,ARU ,Aruba,Aruba,
+20,AST  ,"Astoria, OR",Astoria, OR
+21,ATB  ,"Ashtabula, OH",Ashtabula, OH
+22,ATL  ,"Atlanta, GA",Atlanta, GA
+23,ATW ,"Appleton, WI",Appleton, WI
+24,AUS ,"Austin, TX",Austin, TX
+25,AXB  ,"Alexandria Bay, NY",Alexandria Bay, NY
+26,BAL  ,"Baltimore, MD",Baltimore, MD
+27,BAU ,"Baudette, MN",Baudette, MN
+28,BAY  ,"Bayfield, WI",Bayfield, WI
+29,BBM ,"Brownsville, B&M Bridge",Brownsville, B&M Bridge
+30,BCK  ,"Bucksport, ME",Bucksport, ME
+31,BCM ,"Battle Creek and Kalamazoo County Airport, MI",Battle Creek and Kalamazoo County Airport, MI
+32,BCY  ,"Bay City, MI",Bay City, MI
+33,BEA  ,"Beaumont, TX",Beaumont, TX
+34,BEB  ,"Beebe Plain, VT",Beebe Plain, VT
+35,BEE  ,"Beecher Falls, VT",Beecher Falls, VT
+36,BEL  ,"Bellingham, WA",Bellingham, WA
+37,BGC ,"Bridgeport, CT",Bridgeport, CT
+38,BGM ,"Bangor, ME",Bangor, ME
+39,BHM ,"Bar Harbor, ME    Ferry Terminal",Bar Harbor, ME    Ferry Terminal
+40,BIL   ,"Billings, MT",Billings, MT
+41,BLA  ,"Blaine, WA",Blaine, WA
+42,BOA ,"El Paso, TX Bridge of Americas",El Paso, TX Bridge of Americas
+43,BOC ,"Boca Grande, FL",Boca Grande, FL
+44,BOO ,"Boothbay Harbor, ME",Boothbay Harbor, ME
+45,BOS ,"Boston, MA",Boston, MA
+46,BRG ,"Burlington, VT",Burlington, VT
+47,BRO ,"Brownsville, TX",Brownsville, TX
+48,BRU ,"Brunswick, GA",Brunswick, GA
+49,BTM ,"Butte, MT",Butte, MT
+50,BTN  ,"Baton Rouge, LA",Baton Rouge, LA
+51,BUF  ,"Buffalo, NY",Buffalo, NY
+52,BWA ,"Boundary, WA",Boundary, WA
+53,BWM,"Bridgewater, ME",Bridgewater, ME
+54,CAL  ,"Calexico, CA",Calexico, CA
+55,CAN ,"Cape Canaveral, FL",Cape Canaveral, FL
+56,CAP  ,"Cape Vincent, NY",Cape Vincent, NY
+57,CBH ,"Churubusco, IN",Churubusco, IN
+58,CHA ,"Charlotte Amalie, St. Thomas, VI",Charlotte Amalie," St. Thomas, VI"
+59,CHF  ,"Chief Mountain, MT",Chief Mountain, MT
+60,CHI  ,"Chicago, IL",Chicago, IL
+61,CHL  ,"Charleston, SC",Charleston, SC
+62,CHM ,"Champlain, NY",Champlain, NY
+63,CHR ,"Christiansted, St. Croix, VI",Christiansted," St. Croix, VI"
+64,CHT  ,"Chateaugay, NY",Chateaugay, NY
+65,CIN  ,"Cincinnati, OH",Cincinnati, OH
+66,CLA  ,"Clayton, NY",Clayton, NY
+67,CLE  ,"Cleveland, OH",Cleveland, OH
+68,CLG  ,"Calgary, Alberta Canada",Calgary, Alberta Canada
+69,CLS  ,"Calais, ME",Calais, ME
+70,CLT  ,"Charlotte, NC",Charlotte, NC
+71,CNA ,"Canaan, VT",Canaan, VT
+72,CNC ,"Cannon Corners, NY",Cannon Corners, NY
+73,CNJ  ,"Camden, NJ",Camden, NJ
+74,COB ,"Coburn Gore, ME",Coburn Gore, ME
+75,COL  ,"Columbus, NM",Columbus, NM
+76,COO ,"Coos Bay, OR",Coos Bay, OR
+77,COR ,"Corpus Christi, TX",Corpus Christi, TX
+78,COW,"HQ, Washington DC",HQ, Washington DC
+79,CRA  ,"Crane Lake, MN",Crane Lake, MN
+80,CRB  ,"Caribou, ME",Caribou, ME
+81,CRU ,"Cruz Bay, St. John, VI",Cruz Bay," St. John, VI"
+82,CRY  ,"Carbury, ND",Carbury, ND
+83,CSP  ,"Casper, WY",Casper, WY
+84,CUT  ,"Cut Bank, MT",Cut Bank, MT
+85,DAC ,"Dalton Cache, AK",Dalton Cache, AK
+86,DAL  ,"Dallas, TX",Dallas, TX
+87,DBL  ,"Dublin, Ireland",Dublin, Ireland
+88,DCA ,"Detroit, MI",Detroit, MI
+89,DCB ,"Detroit, Ambassador Bridge",Detroit, Ambassador Bridge
+90,DCT  ,"Detroit, Windsor Tunnel",Detroit, Windsor Tunnel
+91,DEN ,"Denver, CO",Denver, CO
+92,DER  ,"Del Rio, TX",Del Rio, TX
+93,DET  ,"Detroit, MI",Detroit, MI
+94,DIB  ,"Detroit, MI",Detroit, MI
+95,DLB  ,"Del Bonita, MT",Del Bonita, MT
+96,DLR  ,"Del Rio, TX",Del Rio, TX
+97,DMA ,"Detroit, MI",Detroit, MI
+98,DNA ,"Donna, TX",Donna, TX
+99,DNS ,"Dunseith, ND",Dunseith, ND
+100,DOU ,"Douglas, AZ",Douglas, AZ
+101,DSM ,"Des Moines, IA",Des Moines, IA
+102,DUL  ,"Duluth, MN",Duluth, MN
+103,DVD ,"Dover, AFB DE",Dover, AFB DE
+104,DVL  ,"Danville, WA",Danville, WA
+105,EDA  ,"Edmonton, AB Canada",Edmonton, AB Canada
+106,EGP  ,"Eagle Pass, TX",Eagle Pass, TX
+107,ELP  ,"El Paso, TX",El Paso, TX
+108,ELY  ,"Ely, MN",Ely, MN
+109,ENS  ,"Ensenada, PR",Ensenada, PR
+110,EPI   ,"Eastport, ID",Eastport, ID
+111,EPM ,"Eastport, ME",Eastport, ME
+112,ERC  ,"East Richford, VT",East Richford, VT
+113,ERI  ,"Erie, PA",Erie, PA
+114,EVE  ,"Everett, WA",Everett, WA
+115,FAB  ,"Fabens, TX",Fabens, TX
+116,FAJ   ,"Fajardo, PR",Fajardo, PR
+117,FAL  ,"Falcon Dam, TX",Falcon Dam, TX
+118,FAR  ,"Fargo, ND",Fargo, ND
+119,FBA  ,"Freeport, Bahamas",Freeport, Bahamas
+120,FDE  ,"Eagle Pass, Fort Duncan Bridge",Eagle Pass, Fort Duncan Bridge
+121,FER  ,"Ferry, WA",Ferry, WA
+122,FHK  ,"Fort Hancock, TX",Fort Hancock, TX
+123,FPT  ,"Freeport, TX",Freeport, TX
+124,FRB  ,"Fairbanks, AK",Fairbanks, AK
+125,FRE  ,"Fresno, CA",Fresno, CA
+126,FRI   ,"Friday Harbor, WA",Friday Harbor, WA
+127,FRK  ,"Frederiksted, St. Croix, VI",Frederiksted," St. Croix, VI"
+128,FRN  ,"Fernandina, FL",Fernandina, FL
+129,FRT  ,"Fortuna, ND",Fortuna, ND
+130,FTC  ,"Fort Covington, NY",Fort Covington, NY
+131,FTF  ,"Fort Fairfield, ME",Fort Fairfield, ME
+132,FTH  ,"Fort Hancock, NM",Fort Hancock, NM
+133,FTK  ,"Fort Kent, ME",Fort Kent, ME
+134,FTL  ,"Fort Lauderdale, FL",Fort Lauderdale, FL
+135,FTM  ,"Fort Meyers, FL",Fort Meyers, FL
+136,FTP  ,"Fort Pierce, FL",Fort Pierce, FL
+137,FWA ,"Frontier, WA",Frontier, WA
+138,GAL  ,"Galveston, TX",Galveston, TX
+139,GAR ,"Gary, IN",Gary, IN
+140,GEO ,"Georgetown, SC",Georgetown, SC
+141,GGW,"Glasgow, MT",Glasgow, MT
+142,GLO ,"Gloucester, MA",Gloucester, MA
+143,GLP  ,"Gulfport, MS",Gulfport, MS
+144,GPM ,"Grand Portage, MN",Grand Portage, MN
+145,GRB ,"Green Bay, WI",Green Bay, WI
+146,GRE  ,"Great Falls, MT",Great Falls, MT
+147,GRF  ,"Grand Forks, ND",Grand Forks, ND
+148,GRO ,"Grosse Isle, MI",Grosse Isle, MI
+149,GRP  ,"Grand Rapids, MI Kent County Intl Airport",Grand Rapids, MI Kent County Intl Airport
+150,GRR ,"Greer, SC",Greer, SC
+151,GRT  ,"Groton, CT",Groton, CT
+152,GSN ,"Saipan Island, Saipan Intl Arpt, MP, USA",Saipan Island," Saipan Intl Arpt, MP, USA"
+153,GTW ,"Brownsville, Gateway Bridge",Brownsville, Gateway Bridge
+154,GUL  ,"Gulfport, MS",Gulfport, MS
+155,HAI  ,"Haines, AK",Haines, AK
+156,HAL  ,"Halifax, Nova Scotia",Halifax, Nova Scotia
+157,HAM ,"Hamilton, Bermuda",Hamilton, Bermuda
+158,HAR ,"Harrisburg, PA",Harrisburg, PA
+159,HEL  ,"Helena, MT",Helena, MT
+160,HHW,"Honolulu, HI",Honolulu, HI
+161,HID  ,"Hidalgo, TX",Hidalgo, TX
+162,HIG  ,"Highgate Springs, VT",Highgate Springs, VT
+163,HLG  ,"Harlingen, TX",Harlingen, TX
+164,HML ,"Hamlin, ME",Hamlin, ME
+165,HMM,"Hammond, IN",Hammond, IN
+166,HNN ,"Hannah, ND",Hannah, ND
+167,HNS ,"Hansboro, ND",Hansboro, ND
+168,HOB ,"Hoboken, NJ",Hoboken, NJ
+169,HOM ,"Homer, AK",Homer, AK
+170,HOP ,"Hopewell, VA",Hopewell, VA
+171,HOU ,"Houston, TX",Houston, TX
+172,HSB ,"Harrisburg, PA",Harrisburg, PA
+173,HTM ,"Houlton, ME",Houlton, ME
+174,HUM ,"Humacao, PR",Humacao, PR
+175,HVR ,"Wild Horse, MT",Wild Horse, MT
+176,HYD ,"Hyder, AK",Hyder, AK
+177,IND  ,Los Indios,Los Indios,
+178,INP  ,"Indianapolis, IN",Indianapolis, IN
+179,INT  ,"International Falls, MN",International Falls, MN
+180,ISB  ,"Port Isabel, TX",Port Isabel, TX
+181,ISL   ,"Isle Royale, MI",Isle Royale, MI
+182,IVP  ,"Calexico, Truck Crossing",Calexico, Truck Crossing
+183,JAC  ,"Jacksonville, FL",Jacksonville, FL
+184,JER  ,"Jersey City, NJ",Jersey City, NJ
+185,JKM  ,"Jackman, ME",Jackman, ME
+186,JOB  ,"Jobos, PR",Jobos, PR
+187,JUN  ,"Juneau, AK",Juneau, AK
+188,KAL  ,"Kalispell, MT",Kalispell, MT
+189,KAN ,"Kansas City, MO",Kansas City, MO
+190,KET  ,"Ketchikan, AK",Ketchikan, AK
+191,KEY  ,"Key West, FL",Key West, FL
+192,KLM ,"Kalama, WA",Kalama, WA
+193,KOA ,"Kona, HI",Kona, HI
+194,LAN  ,"Lancaster, MN",Lancaster, MN
+195,LAR  ,"Laredo, TX Juarez-Lincoln Bridge",Laredo, TX Juarez-Lincoln Bridge
+196,LAU  ,"Laurier, WA",Laurier, WA
+197,LCB  ,"Laredo, Columbia Bridge",Laredo, Columbia Bridge
+198,LEB  ,"Lebanon, ME",Lebanon, ME
+199,LEW ,"Lewiston, NY",Lewiston, NY
+200,LIM  ,"Limestone, ME",Limestone, ME
+201,LKC  ,"Lake Charles, LA",Lake Charles, LA
+202,LLB  ,"Laredo Juarez-Lincoln Bridge 2, TX",Laredo Juarez-Lincoln Bridge 2, TX
+203,LNB  ,"Long Beach, CA",Long Beach, CA
+204,LOI  ,Los Indios,Los Indios,
+205,LON ,"Longview, WA",Longview, WA
+206,LOR  ,"Lorain, OH",Lorain, OH
+207,LOS  ,"Los Angeles, CA",Los Angeles, CA
+208,LOU ,"Louisville, KY",Louisville, KY
+209,LSE  ,"Los Ebanos, TX",Los Ebanos, TX
+210,LUB  ,"Lubec, ME",Lubec, ME
+211,LUK  ,"Lukeville, AZ",Lukeville, AZ
+212,LVG  ,"Las Vegas, NV",Las Vegas, NV
+213,LWT ,"Laredo, World Trade Bridge",Laredo, World Trade Bridge
+214,LYN  ,"Lynden, WA",Lynden, WA
+215,M     ,"Algoma, WI",Algoma, WI
+216,MAA ,Abu Dhabi INTL,Abu Dhabi INTL,
+217,MAD ,"Madawaska, ME",Madawaska, ME
+218,MAG ,"McGuire AFB, NJ",McGuire AFB, NJ
+219,MAI  ,"Maida, ND",Maida, ND
+220,MAP ,"Mariposa, AZ",Mariposa, AZ
+221,MAS ,"Massena, NY",Massena, NY
+222,MAY ,"Mayaguez, PR",Mayaguez, PR
+223,MCI  ,"McAllen, TX",McAllen, TX
+224,MEM ,"Memphis, TN",Memphis, TN
+225,MET ,"Metaline Falls, WA",Metaline Falls, WA
+226,MGC ,"Morgan City, LA",Morgan City, LA
+227,MGM,"Morgan, MT",Morgan, MT
+228,MIA  ,"Miami, FL",Miami, FL
+229,MIL  ,"Milwaukee, WI",Milwaukee, WI
+230,MND ,"Minot, ND (Int'l Airport)",Minot, ND (Int'l Airport)
+231,MNW,"Manitowoc, WI",Manitowoc, WI
+232,MOB ,"Mobile, AL",Mobile, AL
+233,MON ,"Montreal, Quebec",Montreal, Quebec
+234,MOO,"Mooers, NY",Mooers, NY
+235,MOR ,"Morses Line, VT",Morses Line, VT
+236,MRC ,"Marine City, MI",Marine City, MI
+237,MRH ,"Morehead City, NC",Morehead City, NC
+238,MRR ,"Morristown, NY",Morristown, NY
+239,MRY ,"Marysville, MI",Marysville, MI
+240,MSP ,Minneapolis/St. Paul (Int'l Airport),Minneapolis/St. Paul (Int'l Airport),
+241,MTH ,"Marathon ARPT, FL",Marathon ARPT, FL
+242,MYR ,"Myrtle Beach, SC",Myrtle Beach, SC
+243,NAC ,"Naco, AZ",Naco, AZ
+244,NAS ,"Nassau, Bahamas",Nassau, Bahamas
+245,NEA  ,"Neah Bay, WA",Neah Bay, WA
+246,NEC  ,"Neche, ND",Neche, ND
+247,NEW ,"Newark, NJ",Newark, NJ
+248,NIA  ,"Niagara Falls, NY",Niagara Falls, NY
+249,NIG  ,"Nighthawk, WA",Nighthawk, WA
+250,NIK  ,"Nikiski, AK",Nikiski, AK
+251,NOG ,"Nogales, AZ",Nogales, AZ
+252,NOL ,"New Orleans, LA",New Orleans, LA
+253,NOM ,"Nome, AK",Nome, AK
+254,NOO ,"Noonan, ND",Noonan, ND
+255,NOR ,"Norfolk, VA",Norfolk, VA
+256,NOY ,"Noyes, MN",Noyes, MN
+257,NPV  ,"Newport, VT",Newport, VT
+258,NPW,"Northport, WA",Northport, WA
+259,NRG ,"Northgate, ND",Northgate, ND
+260,NRN ,"Norton, VT",Norton, VT
+261,NRT  ,"North Troy, VT",North Troy, VT
+262,NSV ,"Nashville, TN",Nashville, TN
+263,NWH,"New Haven, CT",New Haven, CT
+264,NWL ,"New London, CT",New London, CT
+265,NWN,"Newport News, VA",Newport News, VA
+266,NYC  ,"New York, NY",New York, NY
+267,OAK ,"Oakland, CA",Oakland, CA
+268,OGD ,"Ogdensburg, NY",Ogdensburg, NY
+269,OKC ,"Oklahoma City, OK",Oklahoma City, OK
+270,OLY  ,"Olympia, WA",Olympia, WA
+271,OMA ,"Omaha, NE",Omaha, NE
+272,OPH ,"Opheim, MT",Opheim, MT
+273,ORL  ,"Orlando, FL",Orlando, FL
+274,ORO ,"Oroville, WA",Oroville, WA
+275,OSW,"Oswego, NY",Oswego, NY
+276,OTM ,"Otay Mesa POE, CA",Otay Mesa POE, CA
+277,OTT  ,"Ottawa, Canada",Ottawa, Canada
+278,PAN  ,"Panama City, FL",Panama City, FL
+279,PAR  ,"Port Arthur, TX",Port Arthur, TX
+280,PAS  ,"Pascagoula, MS",Pascagoula, MS
+281,PAX  ,"Patuxent River, MD",Patuxent River, MD
+282,PBB  ,"Peace Bridge, NY",Peace Bridge, NY
+283,PCF  ,"Port Canaveral, FL",Port Canaveral, FL
+284,PDN ,"Paso del Norte, El Paso, TX",Paso del Norte," El Paso, TX"
+285,PEM ,"Pembina, ND",Pembina, ND
+286,PEN  ,"Pensacola, FL",Pensacola, FL
+287,PER  ,"Perth Amboy, NJ",Perth Amboy, NJ
+288,PEV  ,"Port Everglades, FL",Port Everglades, FL
+289,PGR  ,"Progreso, TX",Progreso, TX
+290,PHI  ,"Philadelphia, PA",Philadelphia, PA
+291,PHO ,"Phoenix, AZ",Phoenix, AZ
+292,PHR  ,"Pharr, TX",Pharr, TX
+293,PHU ,"Port Huron, M",Port Huron, M
+294,PHY  ,"Pacific Highway POE, WA",Pacific Highway POE, WA
+295,PIB  ,"Paradise, Island, Bahamas",Paradise," Island, Bahamas"
+296,PIE   ,"Piegan, MT",Piegan, MT
+297,PIN  ,"Pine Creek, MN",Pine Creek, MN
+298,PIT   ,"Pittsburgh, PA",Pittsburgh, PA
+299,PIV  ,"Pinnacle POE, VT",Pinnacle POE, VT
+300,PKC  ,"Poker Creek, AK",Poker Creek, AK
+301,PNG ,"Port Angeles, WA",Port Angeles, WA
+302,PNH ,"Pittsburg, NH",Pittsburg, NH
+303,POE  ,"Port of El Paso, TX",Port of El Paso, TX
+304,POM ,"Portland, ME",Portland, ME
+305,PON ,"Ponce, PR",Ponce, PR
+306,POO ,"Portland, OR",Portland, OR
+307,POR ,"Portal, ND",Portal, ND
+308,PRC  ,Prince Rupert BC Canada,Prince Rupert BC Canada,
+309,PRE  ,"Presidio, TX",Presidio, TX
+310,PRO ,"Providence, RI",Providence, RI
+311,PSJ  ,"Port St. Joe, FL",Port St. Joe, FL
+312,PSM ,"Portsmouth, NH",Portsmouth, NH
+313,PTL  ,"Porthill, ID",Porthill, ID
+314,PTO  ,"Port Townsend, WA",Port Townsend, WA
+315,PTR  ,"Point Roberts, WA",Point Roberts, WA
+316,PUT  ,"Put-in-Bay, OH",Put-in-Bay, OH
+317,RAN ,"Ranier, MN",Ranier, MN
+318,RAY  ,"Raymond, MT",Raymond, MT
+319,RBB  ,"Niagara Falls, Rainbow Bridge, NY",Niagara Falls," Rainbow Bridge, NY"
+320,RBT  ,"Roberts Landing, MI",Roberts Landing, MI
+321,RCM ,"Richmond, VA",Richmond, VA
+322,RDU ,"Raleigh-Durham, NC",Raleigh-Durham, NC
+323,REN  ,"Reno, NV",Reno, NV
+324,RIF   ,"Richford, VT",Richford, VT
+325,RIO  ,"Rio Grande City, TX",Rio Grande City, TX
+326,RIT  ,"Rome, Italy",Rome, Italy
+327,ROC ,"Rochester, NY",Rochester, NY
+328,ROM ,"Roma, TX",Roma, TX
+329,ROO ,"Roosville, MT",Roosville, MT
+330,ROS ,"Roseau, MN",Roseau, MN
+331,ROU ,"Rouses Point, NY",Rouses Point, NY
+332,SAC  ,"Sacramento, CA",Sacramento, CA
+333,SAG ,"Saginaw, MI",Saginaw, MI
+334,SAJ  ,"San Juan, PR",San Juan, PR
+335,SAR  ,"Sarles, ND",Sarles, ND
+336,SAS  ,"Sasabe, AZ",Sasabe, AZ
+337,SAU ,"St. Augustine, FL",St. Augustine, FL
+338,SAV  ,"Savannah, GA",Savannah, GA
+339,SBR  ,"South Brewer, ME",South Brewer, ME
+340,SCL  ,"St. Clair, MI",St. Clair, MI
+341,SCO ,"Scobey, MT",Scobey, MT
+342,SDP  ,"San Diego Intl. Airport, CA",San Diego Intl. Airport, CA
+343,SDY  ,"Sandusky, OH",Sandusky, OH
+344,SEA  ,"Seattle, WA",Seattle, WA
+345,SET  ,"Seattle-Tacoma, WA",Seattle-Tacoma, WA
+346,SFB  ,"Sanford, FL",Sanford, FL
+347,SFR  ,"San Francisco, CA",San Francisco, CA
+348,SHA ,"Shannon, Ireland",Shannon, Ireland
+349,SHR ,"Sherwood, ND",Sherwood, ND
+350,SJO  ,"St. John, ND",St. John, ND
+351,SKA  ,"Skagway, AK",Skagway, AK
+352,SLC  ,"Salt Lake City, UT",Salt Lake City, UT
+353,SLO  ,"San Luis Obispo, CA",San Luis Obispo, CA
+354,SLU  ,"San Luis, AZ",San Luis, AZ
+355,SNA ,"San Antonio, TX",San Antonio, TX
+356,SND ,"San Diego, CA",San Diego, CA
+357,SNJ  ,"San Jose, CA",San Jose, CA
+358,SNN ,"Shannon, Ireland",Shannon, Ireland
+359,SPA  ,"St. Pamphile, ME",St. Pamphile, ME
+360,SPC  ,"San Pedro, CA",San Pedro, CA
+361,SPE  ,"St. Petersburg, FL",St. Petersburg, FL
+362,SPM ,"St. Paul, MN",St. Paul, MN
+363,SPN  ,Saipan,Saipan,
+364,SPO ,"Spokane, WA",Spokane, WA
+365,SRL  ,"St. Aurelie, ME",St. Aurelie, ME
+366,SSB  ,"Sanford, Fl",Sanford, Fl
+367,SSM ,"Sault Ste. Marie, MI",Sault Ste. Marie, MI
+368,STA  ,"St. Albans, VT",St. Albans, VT
+369,STJ  ,"St. John, USVI",St. John, USVI
+370,STL  ,"St. Louis, MO",St. Louis, MO
+371,STR  ,"Santa Teresa, NM",Santa Teresa, NM
+372,STZ  ,"St. Zacharie, ME",St. Zacharie, ME
+373,SUM ,"Sumas, WA",Sumas, WA
+374,SWE ,"Sweetgrass, MT",Sweetgrass, MT
+375,SYR  ,"Syracuse, NY",Syracuse, NY
+376,SYS  ,"San Ysidro, CA",San Ysidro, CA
+377,TAC  ,"Tacoma, WA",Tacoma, WA
+378,TAM ,"Tampa, FL",Tampa, FL
+379,TEC  ,"Tecate, CA",Tecate, CA
+380,THO ,"Thousand Islands Bridge, NY",Thousand Islands Bridge, NY
+381,TOL  ,"Toledo, OH",Toledo, OH
+382,TOR ,"Toronto, Ontario Canada",Toronto, Ontario Canada
+383,TRL  ,"Trail Creek, MT",Trail Creek, MT
+384,TRO ,"Trout River, NY",Trout River, NY
+385,TRV  ,"Travis AFB, CA",Travis AFB, CA
+386,TUC  ,"Tucson, AZ",Tucson, AZ
+387,TUR  ,"Turner, MT",Turner, MT
+388,VAN ,"Vancouver, WA",Vancouver, WA
+389,VCB  ,"Vanceboro, ME",Vanceboro, ME
+390,VCV  ,"Vancouver, BC Canada",Vancouver, BC Canada
+391,VIB  ,Veterans International Bridge,Veterans International Bridge,
+392,VIC  ,"Victoria, BC",Victoria, BC
+393,VNB ,"Van Buren, ME",Van Buren, ME
+394,WAL ,"Walhalla, ND",Walhalla, ND
+395,WAR ,"Warroad, MN",Warroad, MN
+396,WAS ,"Washington, DC",Washington, DC
+397,WBE ,"West Berkshire, VT",West Berkshire, VT
+398,WCM,"Willow Creek, MT",Willow Creek, MT
+399,WHI ,"Whitetail, MT",Whitetail, MT
+400,WHM,"Wildhorse, MT",Wildhorse, MT
+401,WHO,"Westhope, ND",Westhope, ND
+402,WHR ,Whirlpool Bridge,Whirlpool Bridge,
+403,WHT ,"Whitlash, MT",Whitlash, MT
+404,WIL  ,"Wilmington, NC",Wilmington, NC
+405,WIN ,"Winnipeg, SK. Canada",Winnipeg, SK. Canada
+406,WLL ,"Wilmington, DE",Wilmington, DE
+407,WND,"Williston, ND (Int'l Airport)",Williston, ND (Int'l Airport)
+408,WPB ,"West Palm Beach, FL",West Palm Beach, FL
+409,WRA ,"Wrangell, AK",Wrangell, AK
+410,WRB ,Whirlpool Bridge,Whirlpool Bridge,
+411,YAK  ,"Yakima, WA",Yakima, WA
+412,YOU ,"Youngstown, NY",Youngstown, NY
+413,YSL  ,"Ysleta, TX",Ysleta, TX
+414,YUI  ,"Yuma, AZ",Yuma, AZ
